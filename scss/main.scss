@@ -1,0 +1,100 @@
+$my-green: #03C03C;
+$my-gray: #444444;
+$my-blue: #386394;
+$my-purple: #6232b1;
+$my-bg: #AAAAAA;
+$padding-top-amt: 2%;
+
+body {
+  margin: auto;
+  margin-top: 1em;
+  width: 50%;
+  min-width: 320px;
+  font-family: Lato, sans-serif;
+  height: 100%;
+}
+
+a {
+  text-decoration: none;
+  color: $my-blue;
+}
+
+a:active, a:visited {
+  color: $my-purple;
+}
+
+.header {
+  width: 100%;
+  .title {
+    font-family: "Exo 2", sans-serif;
+    font-weight: bold;
+    font-size: 1.4em;
+    a:active, a:visited {
+      color: $my-green;
+    }
+  }
+}
+
+.home {
+  padding-top: $padding-top-amt;
+  h1 {
+    font-size: 1.2em;
+  }
+  h2 {
+
+  }
+}
+
+.posts {
+  list-style: none;
+  padding-left: 0;
+  padding-top: $padding-top-amt;
+  span {
+    color: $my-gray;
+  }
+  a {
+    text-decoration: none;
+    color: $my-blue;
+    font-weight: bold;
+  }
+  p {
+  }
+}
+
+p {
+  padding-top: $padding-top-amt;
+  line-height: 2em;
+}
+
+.atp {
+  color: $my-green;
+  font-weight: bold;
+}
+
+.footer {
+  width: 50%;
+  min-width: 320px;
+  position: absolute;
+  padding-bottom: 2%;
+  bottom: 0;
+  color: $my-gray;
+  .socials {
+    line-height: 1.5em;
+    text-align: left;
+    bottom: 0;
+    ul {
+      list-style: none;
+      padding-left: 0;
+    }
+  }
+  .tagline {
+    position: absolute;
+    padding-bottom: 8%;
+    text-align: right;
+    bottom: 0;
+    right: 0;
+  }
+  a:active, a:visited {
+    color: $my-blue;
+  }
+}

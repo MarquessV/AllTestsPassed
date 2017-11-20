@@ -1,6 +1,5 @@
 _site
 .jekyll-metadata
 *.swp
-scss
 .sass-cache
 
