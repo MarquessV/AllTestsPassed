@@ -68,13 +68,11 @@ h1 {
   font-size: 1.2em;
 }
 
+
 .posts {
   list-style: none;
   padding-left: 0;
   padding-top: $padding-top-amt;
-  ol {
-    
-  }
   span {
     color: $my-gray;
   }
@@ -91,6 +89,10 @@ p {
 }
 
 .post {
+  .authordate {
+    font-size: 0.8em;
+    color: $my-gray;
+  }
   h2 {
     font-size: 1.1em;
     font-weight: bold;
@@ -104,6 +106,9 @@ p {
     margin-top: 0.5em;
     margin-bottom: 0.5em;
     padding: 0;
+    line-height: 1.5em;
+  }
+  li {
     line-height: 1.5em;
   }
   blockquote {

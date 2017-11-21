@@ -6,14 +6,14 @@
     <title>{{page.title}}</title>
     <meta name="author" content="Marquess Valdez" />
 
-    <link rel="stylesheet" href="./css/main.css" type="text/css" />
+    <link rel="stylesheet" href="{{site.url}}/css/main.css" type="text/css" />
     <link href="https://fonts.googleapis.com/css?family=Exo+2|Inconsolata|Lato" rel="stylesheet">
 
-		<link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
-		<link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
-		<link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
-		<link rel="manifest" href="/manifest.json">
-		<link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5">
+    <link rel="{{site.url}}/apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+    <link rel="{{site.url}}/icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+    <link rel="{{site.url}}/icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+    <link rel="{{site.url}}/manifest" href="/manifest.json">
+    <link rel="{{site.url}}/mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5">
 		<meta name="theme-color" content="#ffffff">
 
   </head>
@@ -22,7 +22,7 @@
   <div class="content">
     <div class="header">
       <div class="title">
-        <a href="./">> All Tests Passed</a>
+        <a href="{{site.url}}">> All Tests Passed</a>
     </div>
 
     {{content}}

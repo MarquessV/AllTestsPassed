@@ -3,7 +3,7 @@ layout: post
 title: "LeetCode #557: Reverse Words in a String III"
 date: 2017-11-20 11:30:00
 use_math: true
-categories: LeetCode Strings C++
+tags: [LeetCode, Strings, C++]
 ---
 
 [Source: LeetCode](https://leetcode.com/problems/reverse-words-in-a-string-iii/description/)

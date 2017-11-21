@@ -1,3 +1,5 @@
 url: https://marquessv.github.io/AllTestsPassed
-markdown: maruku
+markdown: kramdown
 highlighter: rouge
+
+exclude: [scss, README.md, LICENSE, Gemfile, Gemfile.lock]
