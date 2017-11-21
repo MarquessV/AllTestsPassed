@@ -6,15 +6,40 @@ $my-bg: #AAAAAA;
 
 $padding-top-amt: 2%;
 
-$break-small: 820px;
+$break-width: 820px;
+$break-height: 400px;
 
-body {
-  margin: auto;
-  margin-top: 1em;
-  width: 50%;
-  min-width: 320px;
-  font-family: Lato, sans-serif;
+$footer-height: 142px;
+
+$page-width: 50%;
+$page-width-small: 90%;
+$page-width-min: 320px;
+
+* {
+  box-sizing: border-box;
+}
+
+*:before, *:after {
+  box-sizing: border-box;
+}
+
+html, body {
+  margin: 0;
   height: 100%;
+  position: relative;
+  font-family: Lato, sans-serif;
+}
+
+.content {
+  margin: auto;
+  margin-bottom: 0;
+  min-height: 100vh;
+  overflow: hidden;
+  display: block;
+  position: relative;
+  padding-bottom: $footer-height;
+  width: $page-width;
+  min-width: $page-width-min;
 }
 
 a {
@@ -28,6 +53,7 @@ a:active, a:visited {
 
 .header {
   width: 100%;
+  padding-top: $padding-top-amt;
   .title {
     font-family: "Exo 2", sans-serif;
     font-weight: bold;
@@ -75,35 +101,37 @@ p {
 }
 
 .footer {
-  width: 50%;
-  min-width: 320px;
   position: absolute;
-  padding-bottom: 2%;
+  overflow: hidden;
   bottom: 0;
+  width: 100%;
+  height: $footer-height;
   color: $my-gray;
   .socials {
     line-height: 1.5em;
     text-align: left;
-    bottom: 0;
     ul {
       list-style: none;
       padding-left: 0;
     }
-  }
-  .tagline {
-    position: absolute;
-    padding-bottom: 8%;
-    text-align: right;
-    bottom: 0;
-    right: 0;
   }
   a:active, a:visited {
     color: $my-blue;
   }
 }
 
-@media screen and (max-width: $break-small) {
-  body {
-    width: 90%;
+@media screen and (max-width: $break-width) {
+  .content {
+    width: $page-width-small;
+  }
+  .footer {
+    width: $page-width-small;
+  }
+}
+
+@media screen and(max-height: $break-height) {
+  .footer {
+    display: none;
+    visibility: hidden;
   }
 }
