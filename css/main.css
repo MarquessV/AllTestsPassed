@@ -84,9 +84,5 @@ p {
 
   .footer {
     width: 90%; } }
-@media screen and (max-height: 400px) {
-  .footer {
-    display: none;
-    visibility: hidden; } }
 
 /*# sourceMappingURL=main.css.map */

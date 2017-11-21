@@ -7,7 +7,6 @@ $my-bg: #AAAAAA;
 $padding-top-amt: 2%;
 
 $break-width: 820px;
-$break-height: 400px;
 
 $footer-height: 142px;
 
@@ -126,12 +125,5 @@ p {
   }
   .footer {
     width: $page-width-small;
-  }
-}
-
-@media screen and(max-height: $break-height) {
-  .footer {
-    display: none;
-    visibility: hidden;
   }
 }
