@@ -3,10 +3,10 @@
   <head>
     <meta http-equiv="content-type" content="text/html"; charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>{{page.title}}</title>
+    <title>{{page.title}} | All Tests Passed</title>
     <meta name="author" content="Marquess Valdez" />
 
-    <link rel="stylesheet" href="./css/main.css" type="text/css" />
+    <link rel="stylesheet" href="{{site.url}}/css/main.css" type="text/css" />
     <link href="https://fonts.googleapis.com/css?family=Exo+2|Inconsolata|Lato" rel="stylesheet">
 
 		<link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
@@ -22,9 +22,12 @@
   <div class="content">
     <div class="header">
       <div class="title">
-        <a href="./">> All Tests Passed</a>
+        <a href="{{site.url}}">> All Tests Passed</a>
     </div>
 
+    <div class="post">
+      <h1>{{page.title}}</h1>
+    </div>
     {{content}}
 
     <div class="footer">
@@ -41,6 +44,5 @@
     </div>
   </div>
   </body>
-
 
 </html>
