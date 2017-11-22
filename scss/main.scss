@@ -6,7 +6,7 @@ $my-purple: #6232b1;
 $my-bg: #AAAAAA;
 
 $padding-top-amt: 2%;
-
+ 
 $break-width: 820px;
 
 $footer-height: 142px;
@@ -68,6 +68,10 @@ h1 {
   font-size: 1.2em;
 }
 
+h2 {
+  font-size: 1.1em;
+  font-weight: bold;
+}
 
 .posts {
   list-style: none;
@@ -83,6 +87,20 @@ h1 {
   }
 }
 
+.jump {
+  color: #000000
+}
+
+.taglist {
+  word-spacing: 1em;
+}
+
+.tagposts {
+  .posts {
+    padding-top: 0;
+  }
+}
+
 p {
   padding-top: $padding-top-amt;
   line-height: 2em;
@@ -92,10 +110,6 @@ p {
   .authordate {
     font-size: 0.8em;
     color: $my-gray;
-  }
-  h2 {
-    font-size: 1.1em;
-    font-weight: bold;
   }
   h3 {
     font-size: 1.1em;
@@ -161,6 +175,11 @@ p {
   a:active, a:visited {
     color: $my-blue;
   }
+}
+
+#post-meta {
+  font-size: 0.8em;
+  color: $my-gray;
 }
 
 @media screen and (max-width: $break-width) {

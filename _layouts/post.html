@@ -1,6 +1,8 @@
 ---
 layout: default
 ---
+
+
   <head>
 
     <link rel="stylesheet" href="{{site.url}}/css/syntax.css" type="text/css" />
@@ -15,3 +17,14 @@ layout: default
       <div class="authordate">Marquess Valdez, {{page.date | date: '%B %d, %Y'}}</div>
     {{content}}
     </div>
+		
+		<p id="post-meta"> Browse by related tags:
+    {% for tag in site.data.tags %}
+      {% if page.tags contains tag.slug %}
+        <a href="{{site.url}}/tags#{{tag.slug}}">{{ tag.name }}</a>
+        {% if tag.slug != page.tags.last %}
+        , 
+        {% endif %}
+      {% endif %}
+    {% endfor %}
+    </p>

@@ -41,6 +41,10 @@ a:active, a:visited {
 h1 {
   font-size: 1.2em; }
 
+h2 {
+  font-size: 1.1em;
+  font-weight: bold; }
+
 .posts {
   list-style: none;
   padding-left: 0;
@@ -52,6 +56,15 @@ h1 {
     color: #386394;
     font-weight: bold; }
 
+.jump {
+  color: #000000; }
+
+.taglist {
+  word-spacing: 1em; }
+
+.tagposts .posts {
+  padding-top: 0; }
+
 p {
   padding-top: 2%;
   line-height: 2em; }
@@ -59,9 +72,6 @@ p {
 .post .authordate {
   font-size: 0.8em;
   color: #444444; }
-.post h2 {
-  font-size: 1.1em;
-  font-weight: bold; }
 .post h3 {
   font-size: 1.1em;
   font-style: italic;
@@ -114,6 +124,10 @@ p {
       padding-left: 0; }
   .footer a:active, .footer a:visited {
     color: #386394; }
+
+#post-meta {
+  font-size: 0.8em;
+  color: #444444; }
 
 @media screen and (max-width: 820px) {
   .content {
