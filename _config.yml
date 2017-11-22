@@ -1,5 +1,17 @@
+title: All Tests Passed
+description: Programming challenges, solved!
 url: https://marquessv.github.io/AllTestsPassed
+author: Marquess Valdez
 markdown: kramdown
 highlighter: rouge
 
 exclude: [scss, README.md, LICENSE, Gemfile, Gemfile.lock]
+
+plugins:
+  - jekyll-seo-tag
+
+social:
+  name: Marquess Valdez
+  links:
+    - http://github.com/MarquessV
+    - http://linkedin.com/in/marquessv
