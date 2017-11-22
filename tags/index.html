@@ -16,7 +16,7 @@ title:    All Tests Passed | Tags
   <h2><a class="jump" name="{{tag.slug}}">{{ tag.name }}</a></h2>
     <ul class="posts">
     {% for post in site.tags[tag.slug] %}
-    <li><span>{{ post.date | date_to_string }}</span> &#x21FE; <a href="{{site.url}}{{ post.url }}/">{{ post.title }}</a>
+    <li><span>{{ post.date | date_to_string }}</span> &#x21FE; <a href="{{site.url}}{{ post.url }}">{{ post.title }}</a>
     {% endfor %}
     </ul>
   {% endfor %}
