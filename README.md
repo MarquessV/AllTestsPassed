@@ -12,6 +12,6 @@ Besides Jekyll,
 
 ## License
 
-The *_posts* directory and it's contents are Copyright Marquess Valdez. You may not reuse anything withinn without my permission:
+The *_posts* directory and it's contents are Copyright Marquess Valdez. You may not reuse anything within without my permission:
 
 All other directories and files are MIT Licensed. If you do use them, a link back to https://marquessv.github.io would be appreciated.
