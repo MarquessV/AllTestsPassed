@@ -2,6 +2,8 @@ title: All Tests Passed
 description: Programming challenges, solved!
 url: https://marquessv.github.io/AllTestsPassed
 author: Marquess Valdez
+twitter:
+  username: MarquessOTI
 markdown: kramdown
 highlighter: rouge
 
@@ -15,3 +17,4 @@ social:
   links:
     - http://github.com/MarquessV
     - http://linkedin.com/in/marquessv
+    - http://twitter.com/MarquessOTI

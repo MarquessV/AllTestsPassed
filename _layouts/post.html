@@ -7,9 +7,18 @@ layout: default
 
     <link rel="stylesheet" href="{{site.url}}/css/syntax.css" type="text/css" />
 
-    {% if page.use_math %}
-      {% include mathjax_support %}
-    {% endif %}
+    <script type="text/x-mathjax-config">
+      MathJax.Hub.Config({
+        tex2jax: {
+          inlineMath: [ ['$','$'], ['\\(','\\)'] ]
+        }
+      });
+    </script>
+
+    <script type="text/javascript"
+        src="http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML">
+    </script>
+
   </head>
 
     <div class="post">

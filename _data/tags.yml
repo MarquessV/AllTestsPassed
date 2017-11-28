@@ -1,6 +1,12 @@
 - slug: cpp
   name: C++
 
+- slug: data-structures
+  name: Data Structures
+
+- slug: hard
+  name: Hard
+
 - slug: leetcode
   name: LeetCode
 
