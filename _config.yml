@@ -7,7 +7,7 @@ twitter:
 markdown: kramdown
 highlighter: rouge
 
-exclude: [scss, README.md, LICENSE, Gemfile, Gemfile.lock]
+exclude: [vendor, scss, README.md, LICENSE, Gemfile, Gemfile.lock]
 
 plugins:
   - jekyll-seo-tag
